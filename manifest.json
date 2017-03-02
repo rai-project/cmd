@@ -1,0 +1,16 @@
+{
+    "dependencies": {
+        "github.com/Unknwon/com": {
+            "branch": "master"
+        },
+        "github.com/k0kubun/pp": {
+            "branch": "master"
+        },
+        "github.com/spf13/cobra": {
+            "branch": "master"
+        },
+        "github.com/spf13/jwalterweatherman": {
+            "branch": "master"
+        }
+    }
+}

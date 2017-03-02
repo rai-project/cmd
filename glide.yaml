@@ -1,0 +1,10 @@
+package: github.com/rai-project/cmd
+import:
+- package: github.com/Unknwon/com
+  version: ~1.0.0
+- package: github.com/k0kubun/pp
+  version: ~2.3.0
+- package: github.com/spf13/cobra
+  subpackages:
+  - doc
+- package: github.com/spf13/jwalterweatherman
