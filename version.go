@@ -1,7 +1,8 @@
 package cmd
 
 import (
-	"github.com/k0kubun/pp"
+	"fmt"
+
 	"github.com/spf13/cobra"
 )
 
@@ -21,6 +22,10 @@ var VersionCmd = &cobra.Command{
 	Aliases: []string{"info", "v"},
 	Short:   "Prints a the version information",
 	Run: func(cmd *cobra.Command, args []string) {
-		pp.Println(Version)
+		fmt.Println("BuildDate: ", Version.BuildDate)
+		fmt.Println("GitCommit: ", Version.GitCommit)
+		fmt.Println("GitBranch: ", Version.GitBranch)
+		fmt.Println("GitState: ", Version.GitState)
+		fmt.Println("GitSummary: ", Version.GitSummary)
 	},
 }
