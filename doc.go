@@ -66,7 +66,7 @@ for rendering in Hugo.`,
 }
 
 func init() {
-	GendocCmd.PersistentFlags().StringVar(&gendocdir, "dir", "/tmp/raidoc/", "the directory to write the doc.")
+	GendocCmd.PersistentFlags().StringVarP(&gendocdir, "dir", "o", "/tmp/raidoc/", "the directory to write the doc.")
 
 	// For bash-completion
 	GendocCmd.PersistentFlags().SetAnnotation("dir", cobra.BashCompSubdirsInDir, []string{})
