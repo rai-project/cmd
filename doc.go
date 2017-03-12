@@ -34,7 +34,7 @@ This command is, mostly, used to create up-to-date documentation
 of RAI's command-line interface.
 It creates one Markdown file per command with front matter suitable
 for rendering in Hugo.`,
-
+	Hidden: true,
 	RunE: func(cmd *cobra.Command, args []string) error {
 		gendocdir = filepath.Clean(gendocdir)
 		if !strings.HasSuffix(gendocdir, string(os.PathSeparator)) {
