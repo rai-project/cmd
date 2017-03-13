@@ -1,5 +1,5 @@
 {
-    "memo": "318865d69a5544bd37e64392adc57725da37c02e9f1e8f1a11250a31fa16db28",
+    "memo": "c7701defb373e8003a12405ebffc04abc3e3a72496a221f0c05ccb49d89591db",
     "projects": [
         {
             "name": "github.com/Unknwon/com",
@@ -26,30 +26,6 @@
             ]
         },
         {
-            "name": "github.com/k0kubun/pp",
-            "branch": "master",
-            "revision": "d1532fc5d94ecdf2da29e24d7b99721f3287de4a",
-            "packages": [
-                "."
-            ]
-        },
-        {
-            "name": "github.com/mattn/go-colorable",
-            "branch": "master",
-            "revision": "d898aa9fb31c91f35dd28ca75db377eff023c076",
-            "packages": [
-                "."
-            ]
-        },
-        {
-            "name": "github.com/mattn/go-isatty",
-            "branch": "master",
-            "revision": "dda3de49cbfcec471bd7a70e6cc01fcc3ff90109",
-            "packages": [
-                "."
-            ]
-        },
-        {
             "name": "github.com/russross/blackfriday",
             "branch": "master",
             "revision": "5f33e7b7878355cd2b7e6b8eefc48a5472c69f70",
@@ -68,7 +44,7 @@
         {
             "name": "github.com/spf13/cobra",
             "branch": "master",
-            "revision": "92ea23a837e66f46ac9e7d04fa826602b7b0a42d",
+            "revision": "16c014f1a19d865b765b420e74508f80eb831ada",
             "packages": [
                 ".",
                 "doc"
@@ -88,14 +64,6 @@
             "revision": "9ff6c6923cfffbcd502984b8e0c80539a94968b7",
             "packages": [
                 "."
-            ]
-        },
-        {
-            "name": "golang.org/x/sys",
-            "branch": "master",
-            "revision": "e4594059fe4cde2daf423055a596c2cd1e6c9adf",
-            "packages": [
-                "unix"
             ]
         },
         {
