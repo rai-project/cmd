@@ -3,6 +3,9 @@ import:
 - package: github.com/Unknwon/com
   version: ~1.0.0
 - package: github.com/spf13/cobra
+  version: master
   subpackages:
   - doc
 - package: github.com/spf13/jwalterweatherman
+- package: github.com/spf13/pflag
+  version: master
