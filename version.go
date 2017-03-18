@@ -2,31 +2,12 @@ package cmd
 
 import (
 	"fmt"
-	"time"
 
+	"github.com/rai-project/config"
 	"github.com/spf13/cobra"
 )
 
-type VersionInfo struct {
-	// Version is populated at compile time by govvv from ./VERSION
-	Version string
-	// GitCommit is populated at compile time by govvv.
-	BuildDate string
-	// GitState is populated at compile time by govvv.
-	GitCommit  string
-	GitBranch  string
-	GitState   string
-	GitSummary string
-}
-
-var Version = VersionInfo{
-	Version:    "0.2.0",
-	BuildDate:  time.Now().String(),
-	GitCommit:  "-dirty-",
-	GitBranch:  "-dirty-",
-	GitState:   "-dirty-",
-	GitSummary: "-dirty-",
-}
+var Version = &config.App.Version
 
 // versionCmd represents the version command
 var VersionCmd = &cobra.Command{
