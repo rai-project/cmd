@@ -7,6 +7,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
+// EnvCmd ...
 var EnvCmd = &cobra.Command{
 	Use:    "env",
 	Short:  "Prints the environment variables.",

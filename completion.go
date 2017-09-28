@@ -6,6 +6,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
+// CompletionCmd ...
 var CompletionCmd = &cobra.Command{
 	Use:   "completion",
 	Short: "Generates bash completition files.",

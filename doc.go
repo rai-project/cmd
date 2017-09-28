@@ -26,6 +26,7 @@ var (
 	gendocdir string
 )
 
+// GendocCmd ...
 var GendocCmd = &cobra.Command{
 	Use:   "doc",
 	Short: "Generate Markdown documentation for the RAI CLI.",

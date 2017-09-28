@@ -7,6 +7,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
+// Version ...
 var Version = &config.App.Version
 
 // versionCmd represents the version command
