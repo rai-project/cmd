@@ -18,8 +18,14 @@ var VersionCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("BuildDate: ", Version.BuildDate)
 		fmt.Println("GitCommit: ", Version.GitCommit)
-		fmt.Println("GitBranch: ", Version.GitBranch)
-		fmt.Println("GitState: ", Version.GitState)
-		fmt.Println("GitSummary: ", Version.GitSummary)
+		if Version.GitBranch != "" {
+			fmt.Println("GitBranch: ", Version.GitBranch)
+		}
+		if Version.GitState != "" {
+			fmt.Println("GitState: ", Version.GitState)
+		}
+		if Version.GitSummary != "" {
+			fmt.Println("GitSummary: ", Version.GitSummary)
+		}
 	},
 }
