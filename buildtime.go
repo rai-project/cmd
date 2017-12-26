@@ -9,7 +9,7 @@ import (
 // BuildTimeCmd represents the version command
 var BuildTimeCmd = &cobra.Command{
 	Use:   "buildtime",
-	Short: "Prints a the time the binary was compiled",
+	Short: "Prints the time the binary was compiled",
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("BuildDate: ", Version.BuildDate)
 	},
