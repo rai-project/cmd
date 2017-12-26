@@ -37,6 +37,7 @@ It creates one Markdown file per command with front matter suitable
 for rendering in Hugo.`,
 	Hidden: true,
 	RunE: func(cmd *cobra.Command, args []string) error {
+		cmd.DisableAutoGenTag = true
 		gendocdir = filepath.Clean(gendocdir)
 		if !strings.HasSuffix(gendocdir, string(os.PathSeparator)) {
 			gendocdir += string(os.PathSeparator)
