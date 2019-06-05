@@ -14,7 +14,7 @@ var Version = &config.App.Version
 var VersionCmd = &cobra.Command{
 	Use:     "version",
 	Aliases: []string{"buildinfo"},
-	Short:   "Prints a the version information",
+	Short:   "Print a the version information",
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("BuildDate: ", Version.BuildDate)
 		fmt.Println("GitCommit: ", Version.GitCommit)

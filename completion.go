@@ -9,7 +9,7 @@ import (
 // CompletionCmd ...
 var CompletionCmd = &cobra.Command{
 	Use:   "completion",
-	Short: "Generates bash completition files.",
+	Short: "Generate bash completition files.",
 	Long: `Output shell completion code for the specified shell (bash or zsh).
 The shell code must be evalutated to provide interactive
 completion of kubectl commands.  This can be done by sourcing it from

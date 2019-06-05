@@ -10,7 +10,7 @@ import (
 // EnvCmd ...
 var EnvCmd = &cobra.Command{
 	Use:    "env",
-	Short:  "Prints the environment variables.",
+	Short:  "Print the environment variables.",
 	Hidden: false,
 	Run: func(cmd *cobra.Command, args []string) {
 		for _, env := range os.Environ() {
